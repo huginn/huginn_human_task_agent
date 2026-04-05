@@ -1,8 +1,5 @@
 require 'rails_helper'
 require 'huginn_agent/spec_helper'
-require_relative '../lib/huginn_human_task_agent'
-
-HuginnAgent.require!
 
 describe Agents::HumanTaskAgent do
   before do
