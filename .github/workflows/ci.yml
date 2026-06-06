@@ -33,9 +33,9 @@ jobs:
       APP_SECRET_TOKEN: 0b4a2a529a3bb09cc39561e117c13d6e04288e144c322b8d577b0e4589435dce8f512a0e0d7e17c54802a5575c92e1e68550cd18
 
     steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
 
-      - uses: ruby/setup-ruby@3ff19f5e2baf30647122352b96108b1fbe250c64  # v1.299.0
+      - uses: ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f  # v1.310.0
         with:
           ruby-version: "3.4"
           bundler-cache: true
@@ -69,9 +69,9 @@ jobs:
       APP_SECRET_TOKEN: 0b4a2a529a3bb09cc39561e117c13d6e04288e144c322b8d577b0e4589435dce8f512a0e0d7e17c54802a5575c92e1e68550cd18
 
     steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
 
-      - uses: ruby/setup-ruby@3ff19f5e2baf30647122352b96108b1fbe250c64  # v1.299.0
+      - uses: ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f  # v1.310.0
         with:
           ruby-version: "3.4"
           bundler-cache: true
