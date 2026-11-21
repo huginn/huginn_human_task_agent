@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "https://rubygems.org", cooldown: 3
 
 gemspec
 gem "erector", github: "dsander/erector", ref: "821c2fa9174b56cc39e203883d83b18b60912a36"

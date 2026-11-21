@@ -38,6 +38,7 @@ jobs:
       - uses: ruby/setup-ruby@v1.341.0
         with:
           ruby-version: "3.4"
+          bundler: '4.0.24'
           bundler-cache: true
 
       - name: Run tests
@@ -74,6 +75,7 @@ jobs:
       - uses: ruby/setup-ruby@v1.341.0
         with:
           ruby-version: "3.4"
+          bundler: '4.0.24'
           bundler-cache: true
 
       - name: Run tests
