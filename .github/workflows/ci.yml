@@ -35,7 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7.0.1
 
-      - uses: ruby/setup-ruby@v1.341.0
+      - uses: ruby/setup-ruby@v1.344.0
         with:
           ruby-version: "3.4"
           bundler: '4.0.24'
@@ -72,7 +72,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7.0.1
 
-      - uses: ruby/setup-ruby@v1.341.0
+      - uses: ruby/setup-ruby@v1.344.0
         with:
           ruby-version: "3.4"
           bundler: '4.0.24'
