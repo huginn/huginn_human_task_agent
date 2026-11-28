@@ -32,7 +32,7 @@ jobs:
           persist-credentials: false
 
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1.341.0
+        uses: ruby/setup-ruby@v1.344.0
         with:
           ruby-version: ruby
           bundler: '4.0.24'
@@ -48,7 +48,7 @@ jobs:
           ' >> "$GITHUB_OUTPUT"
 
       - name: Publish to RubyGems
-        uses: rubygems/release-gem@v1.4.2
+        uses: rubygems/release-gem@v1.5.0
 
   release:
     needs: push
